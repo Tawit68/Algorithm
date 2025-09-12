@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class shop {
+public class shop2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
@@ -32,11 +32,11 @@ public class shop {
         int pay = sc.nextInt();
         
 
-        if (pay >= total) {
+        if (pay < total) { System.out.println("Not enough money!!");
+            
+        } else {
             int change = pay - total;
             System.out.println("Change : " + change + " Bath");
-        } else {
-            System.out.println("Not enough money!!");
         }
     }
 }
