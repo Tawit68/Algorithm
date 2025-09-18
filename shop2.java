@@ -34,7 +34,7 @@ public class shop2 {
 
         if (pay < total) { System.out.println("Not enough money!!");
             
-        } else {
+        }  else{
             int change = pay - total;
             System.out.println("Change : " + change + " Bath");
         }
